@@ -19,9 +19,14 @@ export default function Featured() {
           <p>· Нейропсихология детского возраста, АНО «НИИДПО», Москва (2018)</p>
           <p>· Нейропсихологическая помощь детям с нарушением речи, АНО ДПО «ЦНПР» (2018)</p>
         </div>
-        <button className="bg-black text-white border border-black px-4 py-2 text-sm transition-all duration-300 hover:bg-white hover:text-black cursor-pointer w-fit uppercase tracking-wide">
+        <a
+          href="https://t.me/+79089101320"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="bg-black text-white border border-black px-4 py-2 text-sm transition-all duration-300 hover:bg-white hover:text-black w-fit uppercase tracking-wide inline-block"
+        >
           Записаться на приём
-        </button>
+        </a>
       </div>
     </div>
   );

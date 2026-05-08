@@ -34,9 +34,14 @@ export default function Hero() {
         <p className="text-lg md:text-xl max-w-2xl mx-auto opacity-90 leading-relaxed">
           Помогаю детям преодолеть трудности с речью, вниманием и поведением — мягко, научно, с заботой
         </p>
-        <button className="mt-8 border border-white text-white px-8 py-3 uppercase tracking-wide text-sm hover:bg-white hover:text-black transition-all duration-300">
+        <a
+          href="https://t.me/+79089101320"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mt-8 inline-block border border-white text-white px-8 py-3 uppercase tracking-wide text-sm hover:bg-white hover:text-black transition-all duration-300"
+        >
           Записаться на консультацию
-        </button>
+        </a>
       </div>
     </div>
   );
